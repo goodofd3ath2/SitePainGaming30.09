@@ -1,0 +1,65 @@
+<!DOCTYPE.html>
+<html>
+<head>
+	<title> Material Design Lite by Fer</title>
+	<!-- Instalação da biblioteca -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+	<!-- Sem essa tag, o site não funciona do jeito que projetamos -->
+	<meta name = "viewport" content = "width, initial-scale= 1">
+	
+	<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.pink-red.min.css" >
+		<script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	
+	</head>
+	<style>
+	.mdl-cell {
+		background-color: #bbb;
+		height: 50px;
+		}
+	
+	
+	</style>
+	<body style = "background-image:url('planodefundo_pain.png');background-repeat:no-repeat; background-size:1500px 800px">	
+	<!-- Para que o layout funcione -->
+		<div class = "transparente mdl-layout mdl-js-layout mdl-layout--fixed-header"> <!-- Para fixar o cabeçalho quando janela minimizada -->
+			<header class = "mdl-layout__header mdl-layout__header--transparent"> <!-- Para que ele entenda que é um cabeçalho -->
+				<div class = "mdl-layout__header-row">
+					<span class = "mdl-layout-title">Introdução</span> <!-- Para que ele entenda que é um título -->
+					<div class = "mdl-layout-spacer"> </div> <!-- Para que os links fiquem do lado direito do cabeçalho -->
+					<nav class = "mdl-navigation">
+						<a href = "#" class = mdl-navigation__link> Tumblr</a> <!-- A classe é necessária para que o link funcione -->
+						<a href = "#"class = mdl-navigation__link> Twitter</a>
+						<a href = "#" class = mdl-navigation__link> Facebook</a>
+					</nav>
+				</div>
+				
+	
+	
+			</header>
+				<div class = "mdl-layout__drawer"> <!-- Menu que se esconde e se expande -->
+					<span class = "mdl-layout-title">Menu</span> <!-- Para que ele entenda que é um título -->
+					<nav class = "mdl-navigation">
+						<a href = "#" class = mdl-navigation__link> Tumblr</a> <!-- A classe é necessária para que o link funcione -->
+						<a href = "#"class = mdl-navigation__link> Twitter</a>
+						<a href = "#" class = mdl-navigation__link> Facebook</a>
+				
+					</nav>
+				</div>
+				
+				<main class = "mdl-layout__content"> <!-- Parte do conteúdo do meu site.. nela não entra nem o cabeçalho nem o rodapé -->
+				
+				<div class = "mdl-grid">
+					<div class = "mdl-cell"> Coluna 1</div>
+					<div class = "mdl-cell"> Coluna 2</div>
+					<div class = "mdl-cell"> Coluna 3</div>
+				
+				</div>
+				
+				
+				
+				</main>
+		</div>
+	</body>
+
+</html>
